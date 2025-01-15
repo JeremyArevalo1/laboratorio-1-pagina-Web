@@ -1,67 +1,57 @@
-ul{
-    justify-content: left;
-    display: flex;
-    list-style-type: none;
-}
-
-.ha1 {
-    font-family: "Oswald";
-    text-align: center;
-    color: white;
-    margin-top: 30px;
-    margin-bottom: 45px;
-
-}
-
-p {
-    text-align: center;
-    font-family: "Playwrite ES", cursive;
-    color: rgb(212, 212, 212);
-    margin-bottom: 15px;
-
-}
-
-.linav{
-    padding-right: 20px;
-}
-
-.anav{
-    color: black;
-    text-decoration: none;
-}
-
-.img1{
-    width: 100px;
-    height: 100px;
-}
-
-.img2{
-    width: 200px; 
-    height: 275px;
-}
-
-
-.bodys {
-    background-image: url("assets/image/img1.webp");
+.bodyy {
+    background-image: url("assets/image/imagbio1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    padding-top: 65px;
+    
 }
 
-nav{
-    background-color: rgb(204, 204, 204);
-    font-family: "Playwrite NG Modern", cursive;
-    padding: 20px;
+.navbar-custom {
+    background-color: rgb(39, 39, 39);
+    
 }
 
+.text-bg-custom {
+    background-color: rgb(39, 39, 39);
+}
 
+.custom-color{
+    color: beige;
+  }
 
-
-
-div{
+h1{
+    font-family: "Pacifico", serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Sombra de texto */
     text-align: center;
-
+    color: rgb(231, 231, 231);
+    margin-bottom: 35px;
 }
 
+p{
+    
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: "Playwrite IN", serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Sombra de texto */
+    color:white;
+}
+
+.p1{
+    margin-top: 40px;
+}
+
+.p2{
+    margin-top: 40px;
+}
+
+.img1 {
+    position: relative; /* Permite usar top y left */
+    bottom: 375px; /* Mueve la imagen hacia arriba */
+    left: 890px; /* Mueve la imagen hacia la derecha */
+    width: 390px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 15px solid white;
+}
 
