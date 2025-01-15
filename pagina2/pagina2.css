@@ -1,0 +1,29 @@
+.bodyy {
+    background-image: url("assets/image/ima2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 65px;
+    
+}
+
+.navbar-custom {
+    background-color: rgb(39, 39, 39);
+    
+}
+
+.text-bg-custom {
+    background-color: rgb(39, 39, 39);
+}
+
+.custom-color{
+    color: beige;
+}
+
+h1{
+    text-shadow: 5px 5px 2px rgba(58, 58, 58, 0.9); /* Sombra de texto */
+    text-align: center;
+    color: rgb(24, 23, 23);
+    margin-bottom: 35px;
+}
