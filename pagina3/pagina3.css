@@ -1,0 +1,134 @@
+
+body{
+    background-image: url('../assets/img/gitBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navbar-custom {
+    background-color: rgb(173, 177, 184);
+    
+}
+
+
+.offcanvas-custom .offcanvas-header, .offcanvas-custom .offcanvas-body {
+    background-color: rgb(39, 39, 39);
+
+}
+
+.offcanvas .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dcdcdc 
+}
+
+.custom-color{
+    color: rgb(255, 255, 255);
+}
+.container{
+    font-size: 15px;  
+    font-family: Arial, sans-serif;
+    font-weight: bold;  
+    text-align: center;
+    color: #232755;
+}
+ 
+.container2{
+    font-size: 15px;  
+    font-family: Arial, sans-serif;
+    font-weight: bold;  
+    color:#232755;
+    text-align: left;
+}
+ 
+.container3{
+    font-size: 35px;  
+    font-family: Arial, sans-serif;
+    font-weight: bold;  
+    color:white;
+           
+}
+
+.container4{
+    font-size: 40px;  
+    font-family: Arial, sans-serif;
+    font-weight: bold;  
+    color:#232755;
+}
+ 
+.figure{
+    background-color: white;
+}
+ 
+.img{
+    width: 90px;
+}
+ 
+.imgBi{
+    width: 100px;
+}
+ 
+.poker-card {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-color: white;
+}
+ 
+.poker-img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.card-text {
+    font-family: Arial, sans-serif;
+    font-weight: bold;  
+}
+         
+ 
+.placeholder-glow {
+    border-radius: 10px;
+}
+
+.img-custom {
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que el margin funcione correctamente */
+    max-width: 40%; /* Ajusta el tamaño de la imagen al 40% del ancho del contenedor */
+}
+
+.partners-title {
+    font-size: 60px; /* Ajusta el tamaño de las letras */
+    margin-top: 90px; /* Añade espacio hacia abajo */
+    margin-bottom: 90px; 
+    text-align: center; /* Centra el texto si es necesario */
+    font-weight: bold; /* Opcional: hace el texto más grueso */
+}
+
+
+
+#carouselExampleIndicators {
+    margin: 0 auto;  /* Centra el carrusel horizontalmente */
+    display: block;  /* Asegura que el carrusel se comporte como un bloque */
+    width: 50%;/* Ajusta el tamaño, puedes cambiar este valor según sea necesario */
+}
+
+.carousel-inner {
+    text-align: center;  /* Alinea el contenido interno (las imágenes) al centro */
+}
+
+.carousel-item img {
+    margin: 0 auto;  /* Asegura que las imágenes estén centradas dentro de cada item */
+    display: block;  /* Cambia la imagen a un bloque para que los márgenes automáticos funcionen */
+}
+
+.carousel-indicators {
+    justify-content: center;  /* Centra los botones de los indicadores */
+}
