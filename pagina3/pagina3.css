@@ -132,3 +132,107 @@ body{
 .carousel-indicators {
     justify-content: center;  /* Centra los botones de los indicadores */
 }
+
+.blue-background {
+    background-color: blue;
+}
+
+.img2{
+    position: relative; /* Permite usar top y left */
+    top: 255px; /* Mueve la imagen hacia abajo */
+    left: 110px; /* Mueve la imagen hacia la derecha */
+    width: 750px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 15px solid white;
+}
+
+.p3 {
+    display: flex; /* Activar Flexbox */
+    flex-direction: column; /* Organizar elementos en columna */
+    
+    align-items: flex-end; /* Alinear a la derecha */
+    height: 200px; /* Ajusta la altura del contenedor según necesites */
+    margin-right: 200px; /* Espacio desde el borde derecho */
+    text-align: right; /* Alinear el texto dentro de los párrafos a la derecha */
+}
+
+.card{
+    top: 200px; /* Mueve la imagen hacia abajo */
+    left: 100px; /* Mueve la imagen hacia la derecha */
+    margin-bottom: 250px;
+}
+
+.pp{
+    text-align: center; /* Centra el texto si es necesario */
+    font-size: 40px; /* Tamaño del texto en píxeles */
+    font-weight: bold; /* Opcional: Negrita para destacar */
+    color: rgb(11, 11, 80);
+    margin-bottom: 5px;
+}
+
+.pp1{
+    text-align: center; /* Centra el texto si es necesario */
+    font-size: 30px; /* Tamaño del texto en píxeles */
+    font-weight: bold; /* Opcional: Negrita para destacar */
+    color: rgb(28, 28, 146);
+    margin-top: 5px;
+}
+
+.pp2{
+    text-align: center; /* Centra el texto si es necesario */
+    font-size: 20px; /* Tamaño del texto en píxeles */
+    color: rgb(42, 42, 243);
+    margin-top: 5px;
+}
+
+.card1 {
+    margin-top: 10px; /* Espacio entre las dos tarjetas */
+    margin-left: 900px; /* Empuja la tarjeta hacia la derecha */
+    margin-bottom: 170px;
+  }
+
+.ppp{
+    text-align: center; /* Centra el texto si es necesario */
+    font-size: 35px; /* Tamaño del texto en píxeles */
+    color: rgb(28, 28, 146);
+    margin-bottom: 5px;
+}
+
+.ppp1{
+    text-align: center; /* Centra el texto si es necesario */
+    font-size: 40px; /* Tamaño del texto en píxeles */
+    font-weight: bold; /* Opcional: Negrita para destacar */
+    color: rgb(11, 11, 80);
+    margin-top: 5px;
+}
+
+.ppp2{
+    text-align: center; /* Centra el texto si es necesario */
+    font-size: 20px; /* Tamaño del texto en píxeles */
+    color: rgb(42, 42, 243);
+    margin-top: 5px;
+}
+
+.imagg {
+    display: block; /* Convierte la imagen en un elemento de bloque */
+    margin: 0 auto; /* Centra horizontalmente */
+    margin-bottom: 250px;
+    width: 1150px;
+  }
+
+.rec{
+    width: 100%;
+    background-color: #050035;
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pppp{
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
